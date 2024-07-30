@@ -28,6 +28,7 @@ const LoginScreen = ({ navigation }) => {
           value={email}
           onChangeText={setEmail}
           style={styles.input}
+          autoCapitalize="none"
         />
         {error && <Text style={styles.error}>{error}</Text>}
       </View>
